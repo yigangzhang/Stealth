@@ -130,7 +130,8 @@ QualitySettings:
     excludedTargetPlatforms: []
   m_PerPlatformDefaultQuality:
     Android: 3
+    BlackBerry: 0
     FlashPlayer: 3
-    Standalone: 4
-    Web: 4
-    iPhone: 2
+    Standalone: 5
+    Web: 5
+    iPhone: 4
