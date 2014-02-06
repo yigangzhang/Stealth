@@ -20,12 +20,12 @@ public class SceneFadeInOut : MonoBehaviour
 
 	void FadeToClear()
 	{
-		guiTexture.color = Color.Lerp(guiText.color, Color.clear, fadeSpeed * Time.deltaTime);
+		guiTexture.color = Color.Lerp(guiTexture.color, Color.clear, fadeSpeed * Time.deltaTime);
 	}
 
 	void FadeToBlack()
 	{
-		guiTexture.color = Color.Lerp(guiText.color, Color.black, fadeSpeed * Time.deltaTime);
+		guiTexture.color = Color.Lerp(guiTexture.color, Color.black, fadeSpeed * Time.deltaTime);
 	}
 
 	void StartScene()
