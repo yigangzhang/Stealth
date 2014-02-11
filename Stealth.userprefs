@@ -1,14 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LaserPlayerDetection.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AlarmSystems/AlarmLight.cs">
     <Files>
-      <File FileName="Assets\Scripts\AlarmLight.cs" Line="37" Column="21" />
-      <File FileName="Assets\Scripts\Tags.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SceneFadeInOut.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LastPlayerSighting.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CCTVPlayerDetection.cs" Line="1" Column="1" />
-      <File FileName="Assets\LaserBlinking.cs" Line="12" Column="27" />
-      <File FileName="Assets\LaserPlayerDetection.cs" Line="21" Column="3" />
+      <File FileName="Assets/Scripts/AlarmSystems/AlarmLight.cs" Line="36" Column="1" />
+      <File FileName="Assets/Scripts/CCTVPlayerDetection.cs" Line="3" Column="1" />
+      <File FileName="Assets/Scripts/LastPlayerSighting.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/ScreenFader/SceneFadeInOut.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/Unapplied/Tags.cs" Line="14" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

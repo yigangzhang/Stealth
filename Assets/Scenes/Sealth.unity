@@ -18914,11 +18914,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e25dad003421da44bcfa5eb57e2b47c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 2
-  highIntensity: 2
-  lowIntensity: .5
-  changeMargin: .200000003
-  alarmOn: 0
 --- !u!1 &868764590
 GameObject:
   m_ObjectHideFlags: 0
@@ -30290,6 +30285,10 @@ Prefab:
       propertyPath: m_UseLightProbes
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 3b059b06d05c0e04ba42674f84feac25, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 8e627916f9d8a450eb9d2e07876bc14f, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3b059b06d05c0e04ba42674f84feac25, type: 3}
   m_RootGameObject: {fileID: 1315420956}
@@ -33704,7 +33703,7 @@ Animator:
   m_GameObject: {fileID: 1315420956}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 3b059b06d05c0e04ba42674f84feac25, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8e627916f9d8a450eb9d2e07876bc14f, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -41583,7 +41582,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 975f3482ab6ebf942952556a1a4099f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeSpeed: 1.5
 --- !u!1 &1662393660
 GameObject:
   m_ObjectHideFlags: 0
