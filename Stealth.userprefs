@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AlarmSystems/AlarmLight.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Unapplied/Tags.cs">
     <Files>
+      <File FileName="Assets/Scripts/GameController/LastPlayerSighting.cs" Line="40" Column="3" />
       <File FileName="Assets/Scripts/AlarmSystems/AlarmLight.cs" Line="36" Column="1" />
-      <File FileName="Assets/Scripts/CCTVPlayerDetection.cs" Line="3" Column="1" />
-      <File FileName="Assets/Scripts/LastPlayerSighting.cs" Line="4" Column="1" />
       <File FileName="Assets/Scripts/ScreenFader/SceneFadeInOut.cs" Line="4" Column="1" />
       <File FileName="Assets/Scripts/Unapplied/Tags.cs" Line="14" Column="1" />
     </Files>
