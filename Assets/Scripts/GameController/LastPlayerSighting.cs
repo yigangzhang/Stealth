@@ -19,15 +19,13 @@ public class LastPlayerSighting : MonoBehaviour
 	{
 		alarm = GameObject.FindGameObjectWithTag(Tags.alarm).GetComponent<AlarmLight>();
 		mainLight = GameObject.FindGameObjectWithTag(Tags.mainLight).light;
-		panicAudio = transform.Find ("secondaryMusic").audio;
+		panicAudio = transform.Find("secondaryMusic").audio;
 
 		GameObject[] sirenGameObjects = GameObject.FindGameObjectsWithTag(Tags.siren);
 		sirens = new AudioSource[sirenGameObjects.Length];
 
 		for(int i = 0; i < sirens.Length; i++)
-		{
 			sirens[i] = sirenGameObjects[i].audio;
-		}
 	}
 
 	void Update()
