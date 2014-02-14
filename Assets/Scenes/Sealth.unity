@@ -30296,7 +30296,7 @@ Prefab:
       objectReference: {fileID: 9100000, guid: 8e627916f9d8a450eb9d2e07876bc14f, type: 2}
     - target: {fileID: 9500000, guid: 3b059b06d05c0e04ba42674f84feac25, type: 3}
       propertyPath: m_ApplyRootMotion
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100088, guid: 3b059b06d05c0e04ba42674f84feac25, type: 3}
       propertyPath: m_IsActive
@@ -33719,7 +33719,7 @@ Animator:
   m_Avatar: {fileID: 9000000, guid: 3b059b06d05c0e04ba42674f84feac25, type: 3}
   m_Controller: {fileID: 9100000, guid: 8e627916f9d8a450eb9d2e07876bc14f, type: 2}
   m_CullingMode: 1
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
 --- !u!54 &1315420959
