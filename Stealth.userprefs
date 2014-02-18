@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DoorAnimation.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerHealth.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player/PlayerHealth.cs" Line="23" Column="52" />
+      <File FileName="Assets/Scripts/Player/PlayerHealth.cs" Line="56" Column="16" />
       <File FileName="Assets/Scripts/AlarmSystems/LaserPlayerDetection.cs" Line="1" Column="1" />
-      <File FileName="Assets/DoorAnimation.cs" Line="61" Column="17" />
+      <File FileName="Assets/Scripts/LevelDynamics/LiftDoorsTracking.cs" Line="17" Column="2" />
+      <File FileName="Assets/Scripts/LevelDynamics/KeyPickup.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/LevelDynamics/DoorAnimation.cs" Line="31" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
