@@ -2,18 +2,23 @@
 using System.Collections;
 
 public class KeyPickup : MonoBehaviour {
-	public AudioClip key;
+	public AudioClip keyGrab;
 
 	private GameObject player;
-	private PlayerInverntory playerInverntory;
+	private PlayerInventory playerInventory;
 
 	void Awake()
 	{
-//		player = GameObject(Tags.player);
-//		playerInverntory = player.GetComponent<PlayerInventory>();
+		player = GameObject.FindGameObjectWithTag(Tags.player);
+		playerInventory = player.GetComponent<PlayerInventory>();
 	}
 
-//	void OntriigerEnter(){
-//
-//	}
+	void OnTriggerEnter(Collider other) {
+		if(other.gameObject == player)
+		{
+			AudioSource.PlayClipAtPoint(keyGrab, transform.position);
+			playerInventory.hasKey = true;
+			Destroy(gameObject);
+		}
+	}
 }
