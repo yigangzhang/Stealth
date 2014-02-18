@@ -5,7 +5,7 @@ AnimatorController:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: SingleDoorAnimator
+  m_Name: DoubleDoorAnimator 1
   serializedVersion: 2
   m_AnimatorParameters:
   - m_Name: Open
@@ -71,7 +71,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400000, guid: 11452b22824aa6248bdad79c4c8b63ad, type: 3}
+  - {fileID: 7400000, guid: 67894dbe67f929d4985daf867dcd597f, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 48, y: 36, z: 0}
   m_IKOnFeet: 0
@@ -86,7 +86,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400002, guid: 11452b22824aa6248bdad79c4c8b63ad, type: 3}
+  - {fileID: 7400002, guid: 67894dbe67f929d4985daf867dcd597f, type: 3}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 48, y: -48, z: 0}
   m_IKOnFeet: 0
@@ -107,13 +107,13 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110285072}
-      second:
-      - {fileID: 110118040}
-    data:
       first: {fileID: 110200000}
       second:
       - {fileID: 110100000}
+    data:
+      first: {fileID: 110285072}
+      second:
+      - {fileID: 110118040}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: -168, y: 0, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
